@@ -1,17 +1,17 @@
 {
-    "name": "wave",
-    "description": "A Ghost theme",
+    "name": "wave-custom",
+    "description": "My Ghost theme",
     "version": "1.0.0",
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"
     },
     "license": "MIT",
-        "author": {
-            "name": "Ghost Foundation",
-            "email": "hello@ghost.org",
-            "url": "https://ghost.org"
-        },
+    "author": {
+        "name": "Ghost Foundation",
+        "email": "hello@ghost.org",
+        "url": "https://ghost.org"
+    },
     "keywords": [
         "ghost",
         "theme",
@@ -44,30 +44,36 @@
         "custom": {
             "navigation_layout": {
                 "type": "select",
-                "options": ["Logo on the left", "Logo in the middle", "Stacked"],
+                "options": [
+                    "Logo on the left",
+                    "Logo in the middle",
+                    "Stacked"
+                ],
                 "default": "Logo on the left"
             },
             "title_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
             },
             "body_font": {
                 "type": "select",
-                "options": ["Modern sans-serif", "Elegant serif"],
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
                 "default": "Modern sans-serif"
             },
-            "apple_podcasts_link": {
+            "github_link": {
                 "type": "text",
-                "default": "https://podcasts.apple.com/"
+                "default": "https://github.com/"
             },
-            "google_podcasts_link": {
+            "discord_link": {
                 "type": "text",
-                "default": "https://podcasts.google.com/"
-            },
-            "spotify_link": {
-                "type": "text",
-                "default": "https://open.spotify.com/"
+                "default": "https://discord.com/"
             },
             "rss_link": {
                 "type": "text"
